@@ -1,5 +1,9 @@
 # Gleason's Theorem: A Lean 4 Formalization
 
+[![CI](https://github.com/markkasaurus/gleason-theorem-lean/actions/workflows/ci.yml/badge.svg)](https://github.com/markkasaurus/gleason-theorem-lean/actions/workflows/ci.yml)
+[![Comparator](https://github.com/markkasaurus/gleason-theorem-lean/actions/workflows/comparator.yml/badge.svg)](https://github.com/markkasaurus/gleason-theorem-lean/actions/workflows/comparator.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21301924.svg)](https://doi.org/10.5281/zenodo.21301924)
+
 This repository formalizes Gleason's theorem for separable real and complex
 Hilbert spaces of dimension at least three.
 
@@ -54,6 +58,14 @@ placeholder is committed to the repository.
 
 See `docs/THEOREM.md`, `docs/ARCHITECTURE.md`, and `docs/VERIFICATION.md` for
 the precise statement and verification boundary.
+
+## Citation
+
+Citation metadata is provided in `CITATION.cff`.
+
+Version DOI: [10.5281/zenodo.21301925](https://doi.org/10.5281/zenodo.21301925)
+
+Concept DOI: [10.5281/zenodo.21301924](https://doi.org/10.5281/zenodo.21301924)
 
 ## License
 

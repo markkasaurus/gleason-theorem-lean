@@ -7,6 +7,10 @@ type: software
 authors:
   - family-names: Soares
     given-names: Mark J.
+version: 1.0.0
+date-released: 2026-07-10
+repository-code: "https://github.com/markkasaurus/gleason-theorem-lean"
+doi: 10.5281/zenodo.21301925
 license: Apache-2.0
 abstract: >-
   A Lean 4 formalization of Gleason's theorem for separable real and complex
