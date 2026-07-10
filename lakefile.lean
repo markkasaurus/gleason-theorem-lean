@@ -1,0 +1,22 @@
+import Lake
+
+open Lake DSL
+
+package gleasonTheorem where
+  srcDir := "."
+
+require mathlib from git
+  "https://github.com/leanprover-community/mathlib4" @ "v4.26.0"
+
+@[default_target]
+lean_lib Gleason where
+  roots := #[`Gleason, `GleasonStatement, `GleasonVerification, `SphericalHarmonics]
+  moreLeanArgs := #[
+    "-Dlinter.unnecessarySimpa=false",
+    "-Dlinter.unusedSectionVars=false",
+    "-Dlinter.unusedVariables=false",
+    "-Dlinter.unusedSimpArgs=false",
+    "-Dlinter.unusedTactic=false",
+    "-Dlinter.unreachableTactic=false",
+    "-Dlinter.unnecessarySeqFocus=false"
+  ]

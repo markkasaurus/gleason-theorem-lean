@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: >-
+  If you use this formalization, please cite the software artifact using the
+  metadata in this file.
+title: "Gleason's Theorem: A Lean 4 Formalization"
+type: software
+authors:
+  - family-names: Soares
+    given-names: Mark J.
+license: Apache-2.0
+abstract: >-
+  A Lean 4 formalization of Gleason's theorem for separable real and complex
+  Hilbert spaces of dimension at least three. Every nonnegative countably
+  additive finite measure on orthogonal projections is represented by a
+  unique positive trace-class operator.
+keywords:
+  - Lean 4
+  - formalized mathematics
+  - Gleason theorem
+  - Hilbert space
+  - quantum foundations

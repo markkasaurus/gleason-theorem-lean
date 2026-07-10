@@ -1,0 +1,8 @@
+import GleasonVerification
+import Gleason.Finite.Theorem
+
+#print axioms ClassicalGleason.Separable.gleason_theorem_verified
+#print axioms ClassicalGleason.Separable.gleason_theorem_separable
+#print axioms ClassicalGleason.Separable.gleason_theorem_separable_real
+#print axioms ClassicalGleason.Separable.gleason_theorem_separable_complex
+#print axioms ClassicalGleason.finite_gleason_statement_from_oscillation
