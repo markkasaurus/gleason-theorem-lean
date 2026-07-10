@@ -56,9 +56,10 @@ Comparator's adversarial sandbox guarantee requires Linux with a functioning
 testing but is not equivalent to the Linux sandboxed check.
 
 The workflow does not compile the solution before invoking comparator, does
-not restore a project build cache, removes persisted checkout credentials, and
-runs comparator under the upstream `systemd-run` address-family restriction.
-External actions and comparator tools are pinned to immutable revisions.
+not restore a project build cache, and removes persisted checkout credentials.
+Comparator performs the challenge and solution builds and exports under its
+pinned `landrun` sandbox. External actions and comparator tools are pinned to
+immutable revisions.
 
 Comparator is an additional audit layer. It does not replace review of whether
 the formal statement accurately expresses the intended mathematical theorem.
