@@ -51,6 +51,10 @@ has exactly the challenge type, uses only the permitted axioms, and is accepted
 by the Lean kernel. The challenge import closure contains only
 `GleasonStatement.lean` and Mathlib.
 
+`lakefile.lean` declares `Challenge` as the root of a non-default library so
+Comparator can build the generated module. `Challenge.lean` itself is created
+only on the GitHub runner and is excluded from the repository.
+
 Comparator's adversarial sandbox guarantee requires Linux with a functioning
 `landrun`. A macOS run using comparator's development shim is useful for setup
 testing but is not equivalent to the Linux sandboxed check.
